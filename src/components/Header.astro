@@ -44,6 +44,7 @@ import HeaderLink from "./HeaderLink.astro";
         text-decoration: none;
     }
     header {
+        padding: 0.5em;
         background: var(--bg);
     }
     nav {
@@ -52,22 +53,21 @@ import HeaderLink from "./HeaderLink.astro";
         justify-content: space-between;
     }
     nav a {
-        padding: 1em 0.5em;
+        padding: 0em 0.5em;
         color: var(--black);
         border-bottom: 4px solid transparent;
         text-decoration: none;
     }
     nav a.active {
         text-decoration: none;
-        color: var(--primary);
+        color: var(--bg);
         margin: 0;
         text-shadow:
-            -1px 1px 0 var(--bg),
-            1px -1px 0 var(--bg),
-            -1px -1px 0 var(--bg),
-            1px 1px 0 var(--bg),
-            0px 4px 0 var(--primary);
-        border-bottom-color: var(--accent);
+            -1px 1px 0 var(--primary),
+            1px -1px 0 var(--primary),
+            -1px -1px 0 var(--primary),
+            1px 1px 0 var(--primary),
+            0px 3px 0 var(--bg);
         position: relative;
         z-index: 1;
     }
@@ -80,16 +80,19 @@ import HeaderLink from "./HeaderLink.astro";
         z-index: -1;
         content: "";
         width: 100px;
-        height: 40px;
+        height: 55px;
         background-color: var(--primary);
         animation: move 1s steps(2, jump-both) infinite alternate;
+        clip-path: polygon(100% 0%, 95% 95%, 0% 75%, 0% 17%);
     }
     @keyframes move {
         from {
-            transform: translate(-50%, -50%) rotateZ(10deg) skewX(-30deg);
+            transform: translate(-50%, -50%) rotateZ(-10deg);
+            clip-path: polygon(100% 0%, 95% 95%, 0% 75%, 0% 17%);
         }
         to {
-            transform: translate(-50%, -50%) rotateZ(-10deg) skewX(25deg);
+            transform: translate(-50%, -50%) rotateZ(10deg);
+            clip-path: polygon(100% 29%, 100% 72%, 0% 86%, 0% 17%);
         }
     }
     @media (max-width: 720px) {
