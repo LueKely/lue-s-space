@@ -17,12 +17,10 @@ const blog = defineCollection({
 });
 
 const gallery = defineCollection({
-  // Load Markdown and MDX files in the `src/content/blog/` directory.
   loader: glob({ base: "./src/content/gallery", pattern: "**/*.{md,mdx}" }),
-  // Type-check frontmatter using a schema
-  schema: ({ image }) =>
+  schema: () =>
     z.object({
-      description: z.string(),
+      year: z.string(),
     }),
 });
 
