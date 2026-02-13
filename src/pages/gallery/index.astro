@@ -37,10 +37,6 @@ const posts = await getCollection("gallery");
                 transition: 0.2s ease;
             }
 
-            ul li img {
-                margin-bottom: 0.5rem;
-                /*border-radius: 12px;*/
-            }
             ul li a {
                 display: block;
             }
@@ -49,10 +45,7 @@ const posts = await getCollection("gallery");
                 color: var(--primary);
                 line-height: 1;
             }
-            .date {
-                margin: 0;
-                color: var(--secondary);
-            }
+
             ul li a:hover h4 {
                 color: var(--accent);
             }
@@ -60,9 +53,7 @@ const posts = await getCollection("gallery");
             ul li a:hover .date {
                 color: var(--blockquote-text);
             }
-            ul a:hover img {
-                box-shadow: var(--secondary);
-            }
+
             @media (max-width: 720px) {
                 ul {
                     gap: 0.5em;
