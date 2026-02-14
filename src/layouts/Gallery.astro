@@ -22,10 +22,11 @@ const { year } = Astro.props;
                 width: calc(100% - 2em);
                 max-width: 100%;
                 margin: 0;
+                min-height: 500px;
             }
 
             .prose {
-                width: 720px;
+                width: 1000px;
                 max-width: calc(100% - 2em);
                 margin: auto;
                 padding: 1em;
@@ -39,24 +40,6 @@ const { year } = Astro.props;
             .title h1 {
                 margin: 0 0 0.2em 0;
             }
-
-            .prose p {
-                /*padding: 100px;*/
-            }
-
-            /* Multiple images inside same paragraph → flex row */
-            .prose p:has(img + img) {
-                display: flex;
-                gap: 1rem;
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            .prose p:has(img + img) img {
-                flex: 1 1 250px;
-                max-width: 100%;
-                height: auto;
-            }
         </style>
     </head>
 
@@ -64,15 +47,15 @@ const { year } = Astro.props;
         <Header />
         <main>
             <article>
-                <!-- todo add filter -->
-
                 <div class="prose">
+                    <a href="/gallery"> Back to Gallery</a>
                     <div class="title">
                         <h1>{year}</h1>
                         <hr />
                     </div>
-                    <slot />
-
+                    <div class="container">
+                        <slot />
+                    </div>
                     <a href="#title"> Back to top</a>
                 </div>
             </article>

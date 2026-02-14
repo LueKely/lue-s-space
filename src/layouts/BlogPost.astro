@@ -18,10 +18,15 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
             main {
                 width: calc(100% - 2em);
                 max-width: 100%;
+                min-height: 500px;
                 margin: 0;
             }
             .hero-image {
                 width: 100%;
+            }
+            .back {
+                margin-inline: auto;
+                width: 900px;
             }
             .hero-image img {
                 display: block;
@@ -60,8 +65,10 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
         <Header />
         <main>
             <article>
-                <!-- todo add filter -->
                 <div class="hero-image">
+                    <div class="back">
+                        <a href="/blog" class=""> Back to Blog</a>
+                    </div>
                     {
                         heroImage && (
                             <Image

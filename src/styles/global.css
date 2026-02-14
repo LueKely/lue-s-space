@@ -29,7 +29,7 @@ main {
     width: 720px;
     max-width: calc(100% - 2em);
     margin: auto;
-    padding: 3em 1em;
+    padding: 1em 1em;
 }
 h1,
 h2,
@@ -169,4 +169,17 @@ hr {
     clip-path: inset(50%);
     /* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
     white-space: nowrap;
+}
+
+.container > p > img {
+    width: 300px;
+    border-radius: 0;
+}
+
+p:has(img) {
+    display: flex;
+    justify-items: center;
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 20px;
 }
