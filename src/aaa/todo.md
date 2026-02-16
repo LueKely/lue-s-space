@@ -1,3 +1,2 @@
-1. rss feed
-2. make actual blogs
-3. mobile view check
+1. fix the image size on the entries 
+2. mobile view on nav bar 
