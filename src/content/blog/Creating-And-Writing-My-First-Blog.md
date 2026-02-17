@@ -1,8 +1,8 @@
 ---
 title: 'Creating And Writing My First Blog'
-description: 'It is easy to make a site for blogging but actually making blogs is a whole other story'
+description: 'It is easy to make a site for blogging but actually making blogs is another story'
 pubDate: 'Feb 16 2026'
-heroImage: '../../assets/blog-placeholder-2.jpg'
+heroImage: '../../assets/thumbnail-1.png'
 ---
 
 It all started of wanting a way to document my development process on the things I'm working on as well as to store my artwork in a new gallery since my old one is pretty lack luster. At the same time I noticed many developers that I know of have blogs where they talk about stuff and seeing how fluid their words were when talking about a topic made me notice I really struggled to do the same due to my lack of practice of the art and often find myself being at the tip of my tongue. "So why not a blog site?" I asked myself, It seems it solves all the my current needs and an option to add more features to boot so I began researching and developing.
