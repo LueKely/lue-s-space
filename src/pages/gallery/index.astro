@@ -73,7 +73,7 @@ const posts = await getCollection("gallery");
                 <h1>Year</h1>
                 <ul>
                     {
-                        posts.map((post) => (
+                        posts.reverse().map((post) => (
                             <li>
                                 <a href={`/lue-s-space/gallery/${post.id}/`}>
                                     <h4 class="title">{post.data.year}</h4>
