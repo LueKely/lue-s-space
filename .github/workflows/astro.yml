@@ -2,7 +2,7 @@ name: Deploy Astro site to Pages
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"] # adjust if your default branch is main or master
   workflow_dispatch:
 
 permissions:
@@ -54,7 +54,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
         with:
-          enablement: true # ✅ auto-enable Pages if not yet initialized
+          enablement: true # ✅ automatically enable GitHub Pages if missing
 
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
@@ -75,10 +75,6 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
         uses: actions/deploy-pages@v4
