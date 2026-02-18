@@ -1,6 +1,6 @@
 ---
 title: 'Creating And Writing My First Blog'
-description: 'It is easy to make a site for blogging but actually making blogs is another story'
+description: "It's easy to make a blog but actually making blogs is another story"
 pubDate: 'Feb 16 2026'
 heroImage: '../../assets/thumbnail-1.png'
 ---
