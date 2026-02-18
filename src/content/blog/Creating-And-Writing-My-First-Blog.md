@@ -30,7 +30,7 @@ When making this entry—remembering what to say, how you felt, and the best way
 > — <cite> some chinese proverb</cite>
 
 ## Deploying 
-I used github pages for now since I don't the have the finances to buy my own domain. Outside of that, undergoing the deployment was new even for the likes of me since It's my first time tinkering with github actions to automatically rebuild the website on new entries or changes in the site. It was delight to learn new technologies again and hopefully I would do more of these in the future.
+I used github pages for now since I don't the have the finances to buy my own domain. Outside of that, undergoing the deployment was new even for the likes of me since it's my first time tinkering with github actions to automatically rebuild the website on new entries or changes in the site. It was delight to learn new technologies again and hopefully I would do more of these in the future.
 
 ## Overall
 I had a lot of fun when making this blog, the challenges it provided as well as the inspirations I got to add in my overall philosophy. Hopefully In the future, I hope I can see that I have made dozens of entries—each being a step towards improvement.
