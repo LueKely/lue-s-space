@@ -8,9 +8,12 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://example.com",
+  site: "https://luekely.github.io",
+  base: "lue-s-space",
   integrations: [mdx(), sitemap()],
-  redirects: { "[...slug]": "/blog" },
+  redirects: {
+    "[...slug]": "/lue-s-space/blog",
+  },
   markdown: {
     shikiConfig: {
       theme: "vitesse-dark",
