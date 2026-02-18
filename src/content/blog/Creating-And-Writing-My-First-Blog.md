@@ -13,7 +13,7 @@ One of my main research material was on [neo cities](https://neocities.org/brows
 
 
 ## The Challenges
-Finding my own theme was hard. Finding the rights fonts and colors actually took more time than building the layouts and components. I wanted this blog to be simple yet it should reflect the authors personality and aesthetic choices. I was on a constant cycle of looking at inspirations and asking myself "Do I want that" and the answers were typically "I'm not sure" so one thing I've learned is being decisive about the changes is paramount so things can move. "Just put stuff out there, I can make it better later", I said to myself.
+Finding my own theme was hard. Finding the right fonts and colors actually took more time than building the layouts and components. I wanted this blog to be simple yet it should reflect the author's personality and aesthetic choices. I was on a constant cycle of looking at inspirations and asking myself "Do I want that" and the answers were typically "I'm not sure" so one thing I've learned from this is that being decisive about the changes is paramount so things can move. "Just put stuff out there, I can make it better later", I said to myself.
 
 So decided to make it a Noir themed with a news paper aesthetic since I've been addicted to playing Deadlock for the past month kek. I really like the how Deadlock's aesthetic looks with it's skewed shapes and grain filters it has so I incoporated it to my design choices as well. 
  
@@ -22,12 +22,15 @@ It's just [astro](https://astro.build/)... I could've gone with something more s
 
 
 ## Actually Writing A Blog
-Putting your thoughts into words is actually hard without it being more stale the further you write—made me wish I focused more on my english classes kek. Worries aside I have a bit of experience from journaling, tho my journal entries are more a kin to unfiltered rage and delusional thoughts than an actual legible entry.
+Putting your thoughts into words is actually hard without it being more stale the further you write—made me wish I focused more on my english classes kek. Worries aside I have a bit of experience from journaling, although my journal entries are more akin to unfiltered rage and delusional thoughts than an actual legible entry.
 
-When making this entry, remembering what to say, how you felt, and the best way to say it is a juggling act I kept balancing i.e I'm bad at this but like any other art form this takes time and the more I practice, the more I get comfortable being uncomfortable. This is but a first step of many.
+When making this entry—remembering what to say, how you felt, and the best way to say it is a juggling act I kept balancing i.e I'm bad at this but like any other art form this takes time and the more I practice, the more I get comfortable being uncomfortable. This is but a first step of many.
 
 > A journey of a thousand miles begins with a single step<br>
 > — <cite> some chinese proverb</cite>
+
+## Deploying 
+I used github pages for now since I don't the have the finances to buy my own domain. Outside of that, undergoing the deployment was new even for the likes of me since It's my first time tinkering with github actions to automatically rebuild the website on new entries or changes in the site. It was delight to learn new technologies again and hopefully I would do more of these in the future.
 
 ## Overall
 I had a lot of fun when making this blog, the challenges it provided as well as the inspirations I got to add in my overall philosophy. Hopefully In the future, I hope I can see that I have made dozens of entries—each being a step towards improvement.
