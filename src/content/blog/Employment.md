@@ -7,7 +7,7 @@ heroImage: '../../assets/thumbnail-3.png'
 
 It's been hard finding employment for the past few month. One of my decisions that I regret the most was applying post graduation, we were too busy finalizing our manuscript for publishing. Running back-and-forth—checking through the corridors of the campus whether the faculty is present to check our finished manuscript and not to mention dealing with campus bureaucracy was if not the most time-wasting things anyone can do. It took us a month post-graduation to deal with our manuscript so we can get our accreditations.
 
-## No fish biting
+## No Fish Biting
 After what was said and done, I started finding employment on December which was a bad idea since it was the holidays and recruiters aren't actively finding any employees during the festivities hence the month being stagnant for anyone to look at my application. So I did what anyone else did at the time and it was to make my own project while decreasing my applications, this is but another regretrable choices I had. After a week has past by, I started getting rejection letters on my email and it was alright for the most part but after january rolled out I wasn't even getting any rejection letters at best. At the worst I was getting absolutely nothing, and this is when my anxiety started kicking in. I started jumping to dozens of conclusions, ruminating this fake reality that I think I'm in and overall ruined my mental health.  
 
 ## Downward Spiral Towards Never Ending Rumination
