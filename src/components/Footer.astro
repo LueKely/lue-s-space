@@ -1,12 +1,20 @@
 ---
+import HeaderLink from "./HeaderLink.astro";
 const today = new Date();
 ---
 
 <footer>
-    &copy; {today.getFullYear()} Lue's Space. All rights reserved.
+    <p>
+        &copy; {today.getFullYear()} Lue's Space. All rights reserved.
+    </p>
+    <HeaderLink href="/lue-s-space/rss.xml">RSS</HeaderLink>
 </footer>
 <style>
     footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         padding: 2em 1em 2em 1em;
         background: linear-gradient(var(--gray-gradient)) no-repeat;
         color: rgb(var(--gray));
