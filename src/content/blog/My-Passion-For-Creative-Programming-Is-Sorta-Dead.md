@@ -1,5 +1,5 @@
 ---
-title: "I don't want programming as a career choice anymore "
+title: "I Don't Want Programming As A Career Choice Anymore"
 description: 'Something just broke inside me'
 pubDate: 'March 20 2026'
 heroImage: '../../assets/thumbnail-4.png'
