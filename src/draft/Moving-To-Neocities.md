@@ -1,5 +1,5 @@
 ---
-title: "Moving my Blog to Neocities"
+title: "Time to change my design!"
 description: 'Goodbye github, It was nice knowing yah'
 pubDate: 'March 30 2026'
 heroImage: '../../assets/thumbnail-4.png'
