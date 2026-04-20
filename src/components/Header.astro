@@ -12,6 +12,11 @@ import HeaderLink from "./HeaderLink.astro";
             <HeaderLink href="/lue-s-space/about">About</HeaderLink>
         </div>
     </nav>
+    <p class="notice">
+        This site is archived, follow this <a
+            href="https://kanto-ni-lue.neocities.org/">blog</a
+        > instead
+    </p>
 </header>
 <style>
     header {
@@ -27,6 +32,15 @@ import HeaderLink from "./HeaderLink.astro";
     a {
         font-family: "Pirata One", system-ui;
         font-size: 1.5em;
+    }
+    .notice {
+        text-align: center;
+    }
+    .notice > a {
+        font-size: 1em;
+        font-family: "Tinos", serif;
+        font-weight: 400;
+        font-style: normal;
     }
     h2 {
         color: var(--primary);

@@ -6,7 +6,6 @@ heroImage: '../../assets/thumbnail-4.png'
 ---
 After some thought, I've decided to move my blog to neocities; Knowing that I'm done turning web development into my career, I might stop using github for my personal projects that won't collorate to improve my overall career. I want to use web development as a means to share my work and let people know my work and stuff! And in the end, I still yearn for the web development mines lol.
 
-UPDATE: Neocities only has 1gb of storage bruh, Guess im staying here rofl
 
 ## I'M FINDING THIS SITE SUPER UGLY
 Yup... mostly that's the reason lol. I found a lot of inspirations such as Desktop Generation and Neocity itself. I'm kinda bored out of my fucking mind everytime I see my blog and between you and me, If even the author of the blog is bored of his own design then that's a sign to change the fuck out of it.
